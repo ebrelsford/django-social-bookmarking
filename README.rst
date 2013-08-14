@@ -47,11 +47,6 @@ Load the fixtures::
 
     ./manage.py loaddata <location-of-django-social-bookmarking>/social_bookmarking/fixtures/bookmarks.json
     
-Depending on your setup, you may need to copy the media files to your local 
-media folder::
-
-    cp -R <location-of-django-social-bookmarking>/social_bookmarking/media/social_bookmarking <my-project>/media/
-    
 ----    
     
 Usage
